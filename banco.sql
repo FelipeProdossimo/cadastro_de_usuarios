@@ -1,0 +1,7 @@
+CREATE DATABASE TB_CADASTROS;
+
+CREATE TABLE bd_cadastros CREATE TABLE cadastros(
+    nome VARCHAR(20) NOT NULL,
+    senha VARCHAR(8) NOT NULL,
+    adm VARCHAR(3) NOT NULL
+)
