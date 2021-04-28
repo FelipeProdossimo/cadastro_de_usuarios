@@ -9,10 +9,10 @@ Totalmente responsivo e visualização fácil.
  ## Tecnologias Utilizadas
  * HTML
  * CSS 
-  * BOOTSTRAP
+   * BOOTSTRAP
  * MySQL 
-  * phpMyAdmin
+    * phpMyAdmin
  * Linguagem
-  * PHP
+    * PHP
  * SQL
-  * Para criação da tabela.
+    * Para criação da tabela.
