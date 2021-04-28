@@ -30,11 +30,11 @@ $sqlInserir = "INSERT INTO cadastros(
     '{$cadastro['adm']}'
 );";
 
-<?php
+/*
 echo "<pre>";
 print_r ($sqlInserir);
 echo "</pre>";
-?>
+*/
 # Para execução
 mysqli_query ($conexao , $sqlInserir);
 }
