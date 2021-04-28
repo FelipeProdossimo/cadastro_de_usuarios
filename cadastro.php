@@ -10,7 +10,7 @@ if (isset($_GET['nome']) && $_GET['nome'] != '') {
         $cadastro['senha'] = '';
     }
 
-    if (isset($_GET['administrador'])) {
+    if (isset($_GET['adm'])) {
         $cadastro['adm'] = $_GET['adm'];
     } else {
         $cadastro['adm'] = '';
@@ -27,11 +27,14 @@ $sqlInserir = "INSERT INTO cadastros(
 ) VALUES(
     '{$cadastro['nome']}',
     '{$cadastro['senha']}',
-    '{$cadastro['adm']}',
+    '{$cadastro['adm']}'
 );";
 
-
-
+<?php
+echo "<pre>";
+print_r ($sqlInserir);
+echo "</pre>";
+?>
 # Para execução
 mysqli_query ($conexao , $sqlInserir);
 }
